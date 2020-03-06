@@ -20,6 +20,8 @@ public class Solution {
 
     public static void main(String[] args) {
         int[] bb=new int[]{1,6,2,2,3};
+        
         System.out.println( removeDuplicates(bb));
     }
+
 }
