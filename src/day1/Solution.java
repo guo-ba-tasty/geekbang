@@ -4,7 +4,7 @@ public class Solution {
 
     public static int removeDuplicates(int[] n) {
 
-        if (n.length == 0) {
+        if (n != null && n.length == 0) {
             return 0;
         }
 
@@ -19,9 +19,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] bb=new int[]{1,6,2,2,3};
+        int[] bb = new int[]{1, 6, 2, 2, 3};
 
-        System.out.println( removeDuplicates(bb));
+        System.out.println(removeDuplicates(bb));
     }
 
 }
